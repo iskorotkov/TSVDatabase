@@ -4,6 +4,9 @@ namespace TSVDatabase.Tests
 {
     public class ParserTests
     {
+        // TODO: Check whether parser can throw exceptions or not.
+        // TODO: Try to parse a string with only whitespaces in it.
+        
         [Test]
         public void OneRecord()
         {
