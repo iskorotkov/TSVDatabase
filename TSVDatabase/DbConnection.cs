@@ -10,9 +10,14 @@ namespace TSVDatabase
         {
             _filename = filename;
         }
-        
+
         public Table Read()
         {
+            if (!File.Exists(_filename))
+            {
+                return new Table();
+            }
+
             using var reader = new StreamReader(_filename);
             var p = new Parser();
             return p.ParseText(reader.ReadToEnd());
