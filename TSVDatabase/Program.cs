@@ -1,12 +1,11 @@
-﻿using System;
-
-namespace TSVDatabase
+﻿namespace TSVDatabase
 {
-    class Program
+    static class Program
     {
-        static void Main(string[] args)
+        private static void Main()
         {
-            Console.WriteLine("Hello World!");
+            var p = new Activity(DbPreferences.ResourceManager.GetString("Path"), new ConsoleReader(), new ConsoleWriter());
+            p.ProcessInput();
         }
     }
 }
