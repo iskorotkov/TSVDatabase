@@ -51,11 +51,19 @@ namespace TSVDatabase
                         OnDefault();
                         break;
                 }
+
+                OnOperationFinished();
             }
+        }
+
+        private void OnOperationFinished()
+        {
+            _writer.Write(OperationHints.OnOperationFinished);
         }
 
         private void OnDefault()
         {
+            _writer.Write(OperationHints.On_default);
         }
 
         private void OnExit()
@@ -65,6 +73,7 @@ namespace TSVDatabase
 
         private void OnHelp()
         {
+            _writer.Write(OperationHints.OnHelp);
         }
 
         private void OnStats()

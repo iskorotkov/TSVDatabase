@@ -135,4 +135,24 @@
   <data name="Update - ask for row and column" xml:space="preserve">
     <value>Please enter row and column separated by space</value>
   </data>
+  <data name="On default" xml:space="preserve">
+    <value>It's not a valid command. Try something else or type 'help'</value>
+  </data>
+  <data name="OnOperationFinished" xml:space="preserve">
+    <value>Operation is finished.</value>
+  </data>
+  <data name="OnHelp" xml:space="preserve">
+    <value>Available commands:
+
+- add
+- read
+- remove
+- update
+
+- stats
+- help
+- exit
+
+Type one of the commands in order to start.</value>
+  </data>
 </root>

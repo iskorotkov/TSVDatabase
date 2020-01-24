@@ -79,6 +79,44 @@ namespace TSVDatabase {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to It&apos;s not a valid command. Try something else or type &apos;help&apos;.
+        /// </summary>
+        public static string On_default {
+            get {
+                return ResourceManager.GetString("On default", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Available commands:
+        ///
+        ///- add
+        ///- read
+        ///- remove
+        ///- update
+        ///
+        ///- stats
+        ///- help
+        ///- exit
+        ///
+        ///Type one of the commands in order to start..
+        /// </summary>
+        public static string OnHelp {
+            get {
+                return ResourceManager.GetString("OnHelp", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Operation is finished..
+        /// </summary>
+        public static string OnOperationFinished {
+            get {
+                return ResourceManager.GetString("OnOperationFinished", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Please enter row index (or leave empty for all rows).
         /// </summary>
         public static string Read___ask_for_nullable_int {
