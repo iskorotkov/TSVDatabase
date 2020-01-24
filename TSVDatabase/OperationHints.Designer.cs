@@ -63,18 +63,18 @@ namespace TSVDatabase {
         /// <summary>
         ///   Looks up a localized string similar to Please enter record values separated by space.
         /// </summary>
-        public static string Add___ask_for_record {
+        public static string Add_AskForRecord {
             get {
-                return ResourceManager.GetString("Add - ask for record", resourceCulture);
+                return ResourceManager.GetString("Add_AskForRecord", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Please enter row index.
         /// </summary>
-        public static string Add___ask_for_row {
+        public static string Add_AskForRow {
             get {
-                return ResourceManager.GetString("Add - ask for row", resourceCulture);
+                return ResourceManager.GetString("Add_AskForRow", resourceCulture);
             }
         }
         
@@ -119,36 +119,36 @@ namespace TSVDatabase {
         /// <summary>
         ///   Looks up a localized string similar to Please enter row index (or leave empty for all rows).
         /// </summary>
-        public static string Read___ask_for_nullable_int {
+        public static string Read_AskForNullableInt {
             get {
-                return ResourceManager.GetString("Read - ask for nullable int", resourceCulture);
+                return ResourceManager.GetString("Read_AskForNullableInt", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Please enter row index.
         /// </summary>
-        public static string Remove___ask_for_row {
+        public static string Remove_AskForRow {
             get {
-                return ResourceManager.GetString("Remove - ask for row", resourceCulture);
+                return ResourceManager.GetString("Remove_AskForRow", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Please enter field value.
         /// </summary>
-        public static string Update___ask_for_field_value {
+        public static string Update_AskForFieldValue {
             get {
-                return ResourceManager.GetString("Update - ask for field value", resourceCulture);
+                return ResourceManager.GetString("Update_AskForFieldValue", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Please enter row and column separated by space.
         /// </summary>
-        public static string Update___ask_for_row_and_column {
+        public static string Update_AskForRowAndColumn {
             get {
-                return ResourceManager.GetString("Update - ask for row and column", resourceCulture);
+                return ResourceManager.GetString("Update_AskForRowAndColumn", resourceCulture);
             }
         }
     }

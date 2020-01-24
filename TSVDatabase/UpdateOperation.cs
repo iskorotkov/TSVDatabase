@@ -4,8 +4,8 @@ namespace TSVDatabase
 {
     public class UpdateOperation : IOperation
     {
-        private Table _t;
-        private IReader _reader;
+        private readonly Table _t;
+        private readonly IReader _reader;
 
         public UpdateOperation(Table t, IReader reader)
         {
@@ -15,8 +15,8 @@ namespace TSVDatabase
         
         public void Execute()
         {
-            var (row, column) = _reader.NumberLetter(OperationHints.ResourceManager.GetString("Update - ask for row and column"));
-            var value = _reader.Field(OperationHints.ResourceManager.GetString("Update - ask for field value"));
+            var (row, column) = _reader.NumberLetter(OperationHints.Update_AskForRowAndColumn);
+            var value = _reader.Field(OperationHints.Update_AskForFieldValue);
             _t[row, column] = value;
         }
     }

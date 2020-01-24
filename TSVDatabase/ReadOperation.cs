@@ -15,7 +15,7 @@
         
         public void Execute()
         {
-            var index = _reader.NullableNumber(OperationHints.ResourceManager.GetString("Read - ask for nullable int"));
+            var index = _reader.NullableNumber(OperationHints.Read_AskForNullableInt);
             if (index == null)
             {
                 _writer.Write(_t);

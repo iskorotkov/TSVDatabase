@@ -1,10 +1,9 @@
 ﻿namespace TSVDatabase
 {
     public class RemoveOperation : IOperation
-
     {
-        private Table _t;
-        private IReader _reader;
+        private readonly Table _t;
+        private readonly IReader _reader;
 
         public RemoveOperation(Table t, IReader reader)
         {
@@ -14,7 +13,7 @@
 
         public void Execute()
         {
-            var index = _reader.Number(OperationHints.ResourceManager.GetString("Remove - ask for row"));
+            var index = _reader.Number(OperationHints.Remove_AskForRow);
             _t.Remove(index);
         }
     }

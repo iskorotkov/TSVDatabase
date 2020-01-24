@@ -13,8 +13,8 @@
         
         public void Execute()
         {
-            var row = _reader.NullableNumber(OperationHints.ResourceManager.GetString("Add - ask for row"));
-            var record = _reader.Record(OperationHints.ResourceManager.GetString("Add - ask for record"));
+            var row = _reader.NullableNumber(OperationHints.Add_AskForRow);
+            var record = _reader.Record(OperationHints.Add_AskForRecord);
             _t.InsertAfter(row, record);
         }
     }

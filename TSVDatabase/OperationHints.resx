@@ -117,22 +117,22 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Add - ask for record" xml:space="preserve">
+  <data name="Add_AskForRecord" xml:space="preserve">
     <value>Please enter record values separated by space</value>
   </data>
-  <data name="Add - ask for row" xml:space="preserve">
+  <data name="Add_AskForRow" xml:space="preserve">
     <value>Please enter row index</value>
   </data>
-  <data name="Read - ask for nullable int" xml:space="preserve">
+  <data name="Read_AskForNullableInt" xml:space="preserve">
     <value>Please enter row index (or leave empty for all rows)</value>
   </data>
-  <data name="Remove - ask for row" xml:space="preserve">
+  <data name="Remove_AskForRow" xml:space="preserve">
     <value>Please enter row index</value>
   </data>
-  <data name="Update - ask for field value" xml:space="preserve">
+  <data name="Update_AskForFieldValue" xml:space="preserve">
     <value>Please enter field value</value>
   </data>
-  <data name="Update - ask for row and column" xml:space="preserve">
+  <data name="Update_AskForRowAndColumn" xml:space="preserve">
     <value>Please enter row and column separated by space</value>
   </data>
   <data name="On default" xml:space="preserve">
