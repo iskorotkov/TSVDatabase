@@ -13,9 +13,8 @@
         
         public void Execute()
         {
-            // TODO: Add hint strings
-            var row = _reader.NullableNumber("");
-            var record = _reader.Record("");
+            var row = _reader.NullableNumber(OperationHints.ResourceManager.GetString("Add - ask for row"));
+            var record = _reader.Record(OperationHints.ResourceManager.GetString("Add - ask for record"));
             _t.InsertAfter(row, record);
         }
     }

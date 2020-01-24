@@ -14,8 +14,7 @@
 
         public void Execute()
         {
-            // TODO: Add hint string
-            var index = _reader.Number("");
+            var index = _reader.Number(OperationHints.ResourceManager.GetString("Remove - ask for row"));
             _t.Remove(index);
         }
     }
