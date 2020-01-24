@@ -45,6 +45,7 @@ namespace TSVDatabase
 
                 _fields[key] = item switch
                 {
+                    // TODO: Record knows about all Field possible types.
                     int i => new Field(i),
                     string s => new Field(s),
                     _ => throw new UnsupportedRecordTypeException(item.GetType())
