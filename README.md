@@ -1,3 +1,3 @@
-# TSV In-memory Database
+# TSV Database
 
 Database that stores data as TSV (tab-separated values) file.
